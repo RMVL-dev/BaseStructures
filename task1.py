@@ -13,8 +13,8 @@ print(priority == not_priority)
 
 #4th program
 input_value = '123.456'
-array = input_value.split('.')
-print(array[1][0])
+value = int(float(input_value)*10) % 10
+print(value)
 
 
 
